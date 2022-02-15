@@ -7,18 +7,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 50vh;
+    min-height: 40vh;
     margin: auto;
+   
 
 }
 
 .container{
-    background-color: blanchedalmond;
+    background-color: hsl(36, 100%, 90%);
     border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
     overflow: hidden;
-    width: 400px;
-    max-width: 100%;
+    width: 350px;
+    max-width: 80%;
 }
 .header{
     background-color: rgb(228, 250, 249);
@@ -31,14 +34,16 @@ body{
 }
 
 .form{
-    padding:30px 40px;
+    padding:20px 40px;
+    position: relative;
+
 }
 
 .form-control{
     margin-bottom: 10px;
     padding-bottom: 10px;
     position: relative;
-    /* visibility: hidden; */
+    
 }
 
 .form-control label{
